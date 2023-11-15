@@ -22,11 +22,8 @@ for n in range(num):
             if str[j] != str[i]:
                 flag = 0
                 break
-
         if flag == 0:
             break
         i = beforeInd = ind
-
     result += flag
-
 print(result)
